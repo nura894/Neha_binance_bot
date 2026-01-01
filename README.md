@@ -19,23 +19,22 @@ and assignment evaluation purposes.
 ---
 
 ## Project Structure
-CRYPTO TRADING BOT/
-│
+
+CRYPTO-TRADING-BOT/
 ├── src/
-│ ├── market_orders.py
-│ ├── limit_orders.py
-│ ├── advanced/
-│ │ ├── stop_limit.py
-│ │ ├── oco.py
-│ │ ├── twap.py
-| | ├── grid_orders.py 
-│ │ └── __init__.py
-│ └── __init__.py
-│
-├── main.py
-├── bot.log
-├── README.md
-└── report.pdf
+│   ├── __init__.py
+│   ├── market_orders.py        # Market order execution
+│   ├── limit_orders.py         # Limit order execution
+│   └── advanced/
+│       ├── __init__.py
+│       ├── stop_limit.py       # Stop-Limit orders
+│       ├── oco.py              # OCO orders
+│       ├── twap.py             # TWAP strategy
+│       └── grid_orders.py      # Grid trading strategy
+├── main.py                     # Entry point
+├── README.md                   # Documentation
+└── report.pdf                  # Project report
+
 
 
 
